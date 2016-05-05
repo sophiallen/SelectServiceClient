@@ -1,0 +1,45 @@
+﻿body {
+    width: 75%;
+    margin: 50px auto;
+    background-color: white;
+    min-height: 720px;
+    padding: 1.5em;
+    line-height: 1.5;
+}
+
+html {
+    background-color: whitesmoke;
+}
+
+label {
+    width: 30%;
+    display: inline-block;
+    padding: 1em .5em;
+}
+
+
+#SelectArtist, #SelectVenue, #DisplayShows {
+    width: 20%;
+    line-height: 1.5;
+    height: 2em;
+    margin: 2em .5em;
+}
+
+div table {
+    border-collapse: separate;
+    border-spacing: 1em;
+    border: none;
+    width: 100%;
+}
+
+td {
+    border:2px solid rgb(138, 207, 200);
+    height:2em;
+    text-align:center;
+}
+
+th {
+    background-color: rgb(138, 207, 200);
+    border:2px solid rgb(138, 207, 200);
+}
+
